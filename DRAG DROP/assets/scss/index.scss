@@ -1,0 +1,70 @@
+.circles {
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    gap: 20px;
+
+    .dropwrapper {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .dropcircle {
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.7s;
+    }
+
+    .circle {
+        width: 159px;
+        height: 159px;
+        border-radius: 50%;
+    }
+
+    #red {
+        background-color: red;
+    }
+
+    #green {
+        background-color: green;
+    }
+
+    #blue {
+        background-color: blue;
+    }
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+
+    input {
+        border: 3px solid teal;
+        padding: 8px 15px;
+        background-color: rgb(5, 46, 46);
+        border-radius: 7px;
+        color: whitesmoke;
+        margin-bottom: 10px;
+    }
+
+    button {
+        border: 1px solid black;
+        border-radius: 7px;
+        font-size: 20px;
+        padding: 8px 16px;
+        background-color: wheat;
+    }
+}
+
+.generatecolor {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}

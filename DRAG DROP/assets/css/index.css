@@ -1,0 +1,90 @@
+.circles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.circles .dropwrapper {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.circles .dropcircle {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.circles .circle {
+  width: 159px;
+  height: 159px;
+  border-radius: 50%;
+}
+
+.circles #red {
+  background-color: red;
+}
+
+.circles #green {
+  background-color: green;
+}
+
+.circles #blue {
+  background-color: blue;
+}
+
+.inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 90px;
+}
+
+.inputs input {
+  border: 3px solid teal;
+  padding: 8px 15px;
+  background-color: #052e2e;
+  border-radius: 7px;
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+
+.inputs button {
+  border: 1px solid black;
+  border-radius: 7px;
+  font-size: 20px;
+  padding: 8px 16px;
+  background-color: wheat;
+}
+
+.generatecolor {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=index.css.map */
